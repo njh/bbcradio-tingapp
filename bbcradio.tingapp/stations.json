@@ -1,0 +1,34 @@
+[
+  {
+    "name": "BBC Radio 1",
+    "logo": "bbc_radio_one.png",
+    "stream": {
+        "type": "http-icy-mp3",
+        "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_one.pls"
+    }
+  },
+  {
+    "name": "BBC Radio 2",
+    "logo": "bbc_radio_two.png",
+    "stream": {
+        "type": "http-icy-mp3",
+        "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_two.pls"
+    }
+  },
+  {
+    "name": "BBC Radio 3",
+    "logo": "bbc_radio_three.png",
+    "stream": {
+        "type": "http-icy-mp3",
+        "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_three.pls"
+    }
+  },
+  {
+    "name": "BBC Radio 4",
+    "logo": "bbc_radio_four.png",
+    "stream": {
+        "type": "http-icy-mp3",
+        "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_fourfm.pls"
+    }
+  }
+]
