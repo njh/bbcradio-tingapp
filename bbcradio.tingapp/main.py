@@ -1,9 +1,8 @@
-# Tide App for listening to BBC Radio
+# Tingbot App for listening to BBC Radio
 #
-#   @left_button.press
-#   @midleft_button.press
-#   @midright_button.press
-#   @right_button.press
+# Requires mpg123:
+#   apt-get install mpg123
+#
 
 import tingbot
 import json
@@ -73,3 +72,4 @@ def loop():
         state['playing'] = state['station']
 
 tingbot.run()
+
