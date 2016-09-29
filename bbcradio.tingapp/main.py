@@ -7,15 +7,32 @@
 
 import tingbot
 import json
+import atexit
 from tingbot import *
+from subprocess import Popen
 
 
 with open('stations.json') as stations_file:    
     stations = json.load(stations_file)
 
 state = {
-  'station': 0
+  'station': 0,
+  'playing': None
 }
+
+proc = None
+
+
+@atexit.register
+def stop_stream():
+    global proc
+    if proc != None:
+        proc.terminate();
+
+def start_stream(stream_url):
+    global proc
+    stop_stream()
+    proc = Popen(['mpg123', '-@', stream_url], env={"PATH": "/usr/local/bin:/usr/bin"})
 
 @left_button.press
 def press():
@@ -33,5 +50,8 @@ def press():
 def loop():
     station = stations[state['station']]
     screen.image(station['logo'])
+    if state['station'] != state['playing']:
+        start_stream(station['stream']['url'])
+        state['playing'] = state['station']
 
 tingbot.run()
