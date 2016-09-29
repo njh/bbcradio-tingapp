@@ -3,32 +3,136 @@
     "name": "BBC Radio 1",
     "logo": "bbc_radio_one.png",
     "stream": {
-        "type": "http-icy-mp3",
-        "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_one.pls"
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_one.pls"
+    }
+  },
+  {
+    "name": "BBC Radio 1Xtra",
+    "logo": "bbc_1xtra.png",
+    "stream": {
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_1xtra.pls"
     }
   },
   {
     "name": "BBC Radio 2",
     "logo": "bbc_radio_two.png",
     "stream": {
-        "type": "http-icy-mp3",
-        "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_two.pls"
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_two.pls"
     }
   },
   {
     "name": "BBC Radio 3",
     "logo": "bbc_radio_three.png",
     "stream": {
-        "type": "http-icy-mp3",
-        "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_three.pls"
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_three.pls"
     }
   },
   {
     "name": "BBC Radio 4",
     "logo": "bbc_radio_four.png",
     "stream": {
-        "type": "http-icy-mp3",
-        "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_fourfm.pls"
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_fourfm.pls"
+    }
+  },
+  {
+    "name": "BBC Radio 4 Extra",
+    "logo": "bbc_radio_four_extra.png",
+    "stream": {
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_four_extra.pls"
+    }
+  },
+  {
+    "name": "BBC Radio 5 live",
+    "logo": "bbc_radio_five_live.png",
+    "stream": {
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_five_live.pls"
+    }
+  },
+  {
+    "name": "BBC Radio 5 live sports extra",
+    "logo": "bbc_radio_five_live_sports_extra.png",
+    "stream": {
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_five_live_sports_extra.pls"
+    }
+  },
+  {
+    "name": "BBC Radio 6 Music",
+    "logo": "bbc_6music.png",
+    "stream": {
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_6music.pls"
+    }
+  },
+  {
+    "name": "BBC Asian Network",
+    "logo": "bbc_asian_network.png",
+    "stream": {
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_asian_network.pls"
+    }
+  },
+  {
+    "name": "BBC World Service",
+    "logo": "bbc_world_service.png",
+    "stream": {
+      "type": "http-icy-mp3",
+      "url": "http://wsdownload.bbc.co.uk/worldservice/meta/live/shoutcast/mp3/eieuk.pls"
+    }
+  },
+  {
+    "name": "BBC Radio Scotland",
+    "logo": "bbc_radio_scotland.png",
+    "stream": {
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_scotland_fm.pls"
+    }
+  },
+  {
+    "name": "BBC Radio nan Gàidheal",
+    "logo": "bbc_radio_nan_gaidheal.png",
+    "stream": {
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_nan_gaidheal.pls"
+    }
+  },
+  {
+    "name": "BBC Radio Ulster",
+    "logo": "bbc_radio_ulster.png",
+    "stream": {
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_ulster.pls"
+    }
+  },
+  {
+    "name": "BBC Radio Foyle",
+    "logo": "bbc_radio_foyle.png",
+    "stream": {
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_foyle.pls"
+    }
+  },
+  {
+    "name": "BBC Radio Wales",
+    "logo": "bbc_radio_wales.png",
+    "stream": {
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_wales_fm.pls"
+    }
+  },
+  {
+    "name": "BBC Radio Cymru",
+    "logo": "bbc_radio_cymru.png",
+    "stream": {
+      "type": "http-icy-mp3",
+      "url": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-mp3-a/format/pls/vpid/bbc_radio_cymru.pls"
     }
   }
 ]
