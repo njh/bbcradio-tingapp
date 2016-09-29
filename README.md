@@ -11,7 +11,7 @@ This Tingbot App allows you to listen to BBC Radio on your [TingBot].
 Installing mpg123
 -----------------
 
-The BBC radio streams are played back using [mpg123]. To install it on your [Tingbox] / Raspberry Pi, use the following command: 
+The BBC radio streams are played back using [mpg123]. To install it on your [Tingbot] / Raspberry Pi, use the following command: 
 
     sudo apt-get install mpg123
 
