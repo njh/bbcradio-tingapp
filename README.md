@@ -6,7 +6,7 @@ This Tingbot App allows you to listen to BBC Radio on your [TingBot].
 * To change station press the left and right buttons.
 * To change the volume, press the middle two buttons.
 
-
+![logo](https://raw.github.com/njh/bbcradio-tingapp/master/docs/tingbot-buttons.png)
 
 Installing mpg123
 -----------------
